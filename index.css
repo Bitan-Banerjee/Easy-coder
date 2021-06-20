@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+#header {
+  width: 100%;
+  background-color: #00b2ff;
+  padding: 1em;
+  height: 30px;
+}
+
+#logo {
+  float: left;
+  font-weight: bold;
+  font-size: 120%;
+  padding: 5px 5px;
+  color: #1a1a1a;
+}
+
+#buttonContainer {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.togglebutton {
+  float: left;
+  padding: 0.6em;
+  border-right: none;
+  font-size: 90%;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+}
+
+.togglebutton:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+
+#html {
+}
+
+#output {
+}
+
+.active {
+  background-color: #0085ff;
+}
+
+.highlightedButton {
+  background-color: #0085ff;
+}
+
+textarea {
+  width: 50%;
+  resize: none;
+  border-top: none;
+  border-color: grey;
+  font-size: 17px;
+}
+
+.panel {
+  float: left;
+  width: 50%;
+  padding-top: 1em;
+  border-left: none;
+  background-color: white;
+}
+
+iframe {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}

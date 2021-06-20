@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">Code Player</div>
+        <div id="buttonContainer">
+            <div class="togglebutton active" id="html">HTML</div>
+            <div class="togglebutton" id="css">CSS</div>
+            <div class="togglebutton" id="javascript">JAVASCRIPT</div>
+            <div class="togglebutton active" id="output">OUTPUT</div>
+        </div>
+    </div>
+    <div id="bodyContainer">
+        <textarea id="htmlPanel" class="panel" ><p id="paragraph">Hello World!</p></textarea>
+        <textarea id="cssPanel" class="panel hidden">p{color: green;}</textarea>
+        <textarea id="javascriptPanel" class="panel hidden">
+            document.getElementById("paragraph").innerHTML = "Hello Mate!"</textarea>
+        <iframe id="outputPanel" class="panel"></iframe>
+    </div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
